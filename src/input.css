@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+@layer components {
+  .nav-over li {
+    @apply underline underline-offset-4 transition-all;
+  }
+  .nav-over li:hover {
+    @apply cursor-pointer bg-slate-400  rounded-sm no-underline;
+  }
+}
+.write {
+  writing-mode: vertical-rl;
+}
+.vertical {
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: 15%;
+}
+.vertical1 {
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: 2%;
+}
+.vertical3 {
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: 30%;
+}
+.vertical4 {
+  writing-mode: vertical-rl;
+  position: absolute;
+}
+.recordh1 {
+  line-height: 38px;
+}
+.translateEF {
+  transition: all ease 0.5s;
+}
+.translateEF:hover {
+  transform: translate(-40px, -8px);
+
+  position: absolute;
+  top: -37%;
+  transform: rotateZ(1deg);
+  transform: scale(0.8);
+}
+#firstAnime {
+  transition: all ease 0.5s;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+#afterslider_h2,
+#afterslider_h22,
+#afterslider_h23 {
+  line-height: 35px;
+  animation-duration: 10s;
+}
+
+#navList > li:hover > a {
+  display: inline-block;
+  transition: all 2s;
+  transition-timing-function: ease;
+  background: rgba(18, 140, 192, 0.911);
+}
+
+.mainBg {
+  line-height: 70px;
+  position: relative;
+}

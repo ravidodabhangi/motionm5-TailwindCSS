@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')");
+}
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+.city-box {
+  background-image: linear-gradient(
+    to left top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  color: li;
+}
+article
+{
+    border: 8px solid lightcoral;
+}
+.inp{
+    border: 2px solid blue;
+}
+.inp:focus{
+    border: 2px solid hotpink;
+}
